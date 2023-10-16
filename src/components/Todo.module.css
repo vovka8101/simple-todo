@@ -1,0 +1,53 @@
+.newTodo {
+  padding: 16px;
+  display: flex;
+  gap: 2px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 20px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.addBtn {
+  appearance: none;
+  padding-inline: 14px;
+  color: #fff;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px dotted #ddd;
+  border-radius: 6px;
+}
+
+.todoList {
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+.todoTopSection {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+  margin-bottom: 20px;
+}
+
+.todoTitle {
+  font-weight: bold;
+}
+
+.todoClearBtn {
+
+}
+
+.todoContent {
+
+}
