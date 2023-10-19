@@ -37,6 +37,7 @@ export const InputField = ({ setTodoList }: InputFieldProps) => {
         <input
           type="text"
           value={todoText}
+          required
           onChange={e => { handleChange(e) }}
           className={s.inputField}
         />
