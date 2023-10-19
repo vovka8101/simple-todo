@@ -18,10 +18,14 @@ export const InputField = ({ setTodoList }: InputFieldProps) => {
     e.preventDefault();
 
     setTodoList(prevTodo => {
-      return [
-        ...prevTodo, 
+      const newTodo = [
+        ...prevTodo,
         { id: crypto.randomUUID(), todoText: todoText, isCompleted: false }
       ]
+
+      localStorage.setItem('todo', JSON.stringify(newTodo));
+
+      return newTodo
     })
 
     setTodoText('');
